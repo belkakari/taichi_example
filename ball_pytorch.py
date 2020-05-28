@@ -4,7 +4,7 @@ import os
 import numpy as np
 import taichi as ti
 
-from .base_sim import BaseSim
+from base_sim import BaseSim
 
 
 @ti.data_oriented
