@@ -1,7 +1,7 @@
 import taichi as ti
 import numpy as np
 
-from .ball_pytorch import RollingBallPytorchSim
+from ball_pytorch import RollingBallPytorchSim
 
 
 ti.init(arch=ti.cpu, default_fp=ti.f32)
